@@ -1,0 +1,506 @@
+.trader_img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-right: 15px;
+}
+
+.bg_body {
+   background-color: #18222E;
+
+}
+.color_red{
+   color: red !important;
+}
+
+/* .head_trader{
+     color: blue;
+  } */
+.label_time {
+   color: white;
+}
+
+.media_table {
+   /* text-align: left; */
+   color: white;
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.ascending {
+   background-color: transparent;
+}
+
+.descending {
+   background-color: transparent;
+
+}
+
+.th_action {
+
+   background-color: transparent;
+   font-weight: 700;
+
+   /* padding: 0.5em; */
+   padding-bottom: 10px !important;
+}
+
+.head_sno {
+   padding-bottom: 10px !important;
+}
+
+.table_rowB {
+   border-top: 1em solid transparent;
+}
+
+.table_rowA td {
+   padding-top: 10px;
+   padding-bottom: 8px;
+   margin-top: 10px !important;
+   /* background-color: darksalmon; */
+
+}
+
+
+thead th {
+   cursor: default;
+}
+
+thead th.ascending::after {
+   content: '⬇';
+   display: inline-block;
+
+
+}
+
+thead th.descending::after {
+   content: '⬆';
+   display: inline-block;
+
+}
+
+.media_Body {
+   display: none;
+}
+
+
+
+.thead_box {
+   border-top: 1px solid white;
+}
+.table_top {
+   display: flex;
+   justify-content: right;
+   margin-bottom: 10px;
+ }
+ 
+ .table_top_a{
+   display: flex;
+   
+ }
+
+
+ .table_top_sort {
+   display: flex;
+   flex-direction: column;
+   margin-right: 10px;
+ }
+ 
+ .select_sort, .select_time{
+   padding: 10px 50px 10px 7px;
+   background: linear-gradient(348.1deg, #04131E 14.25%, #0E1A29 59.14%);
+   border-radius: 5px;
+   color: #B3CEE2;
+   border-color: #154FC2;
+   
+ }
+ .select_time option, .select_sort option{
+   border: none;
+   border-radius: 5px !important;
+   color: #B3CEE2;
+   text-align: left;
+   background-color: #0E1A29;
+ }
+ .label_time, .label_sort {
+   font-size: 12px;
+   color: white;
+   text-align: left;
+   margin-bottom: 5px;
+ }
+
+ 
+ .table_top_time {
+   display: flex;
+   flex-direction: column;
+   margin-right: 10px;
+ }
+ 
+ .table_top_search {
+   display: flex;
+   margin-top: auto;
+   margin-bottom: 2px;
+
+
+   position: relative;
+   
+ }
+ .input_search{
+   padding: 10px 43px 10px 10px;
+   background-color: #0E1A29;
+   /* background: linear-gradient(348.1deg, #04131E 14.25%, #0E1A29 59.14%); */
+   border-radius: 5px;
+   color: white;
+   border-color: #154FC2;
+   border-width: 1.5px;
+   border-style: solid;
+   
+   
+   
+ }
+ .input_search::placeholder{
+   color:#B3CEE2;;
+ }
+ 
+ .icon_search{
+   color: white;
+   background-color: #154FC2;
+   border-radius: 5px;
+   border-width: 1.5px;
+   padding: 9.9px 11px;
+   position: absolute;
+   right: 0;
+   
+ }
+ .head_flex{
+   display: flex;
+   justify-content: space-between;
+ }
+ .table_heading{
+   display: flex;
+   flex-direction: row;
+   width: 30%;
+ }
+ .table_heading img{
+  padding-top: 22px;
+  padding-left: 29px;
+  height: 35px;
+  
+  
+ }
+ .table_heading h3{
+   color: white;
+   font-size: 22px;
+   font-family: 'Inter', sans-serif;
+ }
+
+.pagination_btm{
+   display: flex;
+   justify-content: end;
+}
+.btm_p{
+   margin-right: 20px;
+   font-size: 12px;
+   padding-top: 5px;
+   color: #B3CEE2;
+}
+
+ @media (max-width: 920px) {
+   .table_res{
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+   }
+ }
+ @media (max-width: 845px) {
+   .select_sort, .select_time{
+      padding: 7px 30px 7px 10px;
+      background: linear-gradient(348.1deg, #04131E 14.25%, #0E1A29 59.14%);
+      border-radius: 5px;
+      color: #B3CEE2;
+      border-color: #154FC2;
+      
+    }
+    .input_search{
+      padding: 7px 20px 7px 10px;
+      background: linear-gradient(348.1deg, #04131E 14.25%, #0E1A29 59.14%);
+      border-radius: 5px;
+      color: white;
+      border-color: #154FC2;
+      
+      
+      
+    }
+ }
+ @media (max-width: 793px) {
+   .table_heading img{
+      padding-top: 22px;
+      padding-left: 15px;
+      height: 30px;
+      
+      
+     }
+     .table_heading h3{
+       color: white;
+       font-size: 20px;
+       font-family: 'Inter', sans-serif;
+     }
+     .select_sort, .select_time{
+      padding: 7px 40px 7px 0px;
+      background: linear-gradient(348.1deg, #04131E 14.25%, #0E1A29 59.14%);
+      border-radius: 5px;
+      color: #B3CEE2;
+      border-color: #154FC2;
+      margin-bottom: 8px;
+      
+    }
+ }
+ 
+@media (max-width: 767px) {
+   .media_Body {
+      display: block;
+      /* width: 100%; */
+      color: white;
+   }
+   .head_flex{
+   flex-direction: column;
+    }
+
+    .table_heading h3{
+      color: white;
+      font-size: 18px;
+      font-family: 'Inter', sans-serif;
+    }
+    .table_heading{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    } 
+    .table_heading img{
+     margin-left: auto;
+     padding-left: 10px;
+     padding-top: 16px;
+     
+   } 
+  
+   .flex_body {
+      width: 90vw;
+      border: 1px solid #0464BD;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      justify-content: center;
+      margin: 11px 0;
+   }
+
+   .media_table {
+      display: none;
+   }
+
+   .media_content {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      margin-top: 13px;
+   }
+
+   .firstLine {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .firstline_b, .firstline_a {
+      text-align: left;
+   }
+
+   .media_btn input {
+      font-size: 30px;
+      background-color: yellow;
+      border-radius: 5px;
+      width: 40px;
+
+   }
+   .btnNeg input {
+      font-size: 40px;
+      background-color: transparent;
+      border-radius: 5px;
+      width: 50px;
+      color: white;
+
+   }
+
+   .firstline_a h6, .firstline_b h6 {
+      margin: 0;
+      text-align: left;
+      font-size: 14px;
+      font-weight: normal;
+   }
+
+   .firstline_a p, .firstline_b p {
+      line-height: 16px;
+      text-align: left;
+      font-size: 14px;
+   }
+
+   .line_a {
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+   }
+
+   .line_a img {
+
+      width: 40px;
+      height: 40px;
+   }
+
+   .line_a span {
+      font-size: 17px;
+      margin-top: 10px;
+
+
+   }
+
+
+
+   .secondline {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: right;
+   }
+
+   .secondline h5 {
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 5px;
+   }
+     .secondline h6 {
+      font-size: 15px;
+      font-weight: normal;
+      margin: 0;
+      color: rgba(0, 186, 128, 1);
+   }
+
+   .secondline p {
+      font-size: 14px;
+      margin-top: 5px;
+   }
+
+   .flex_body {
+      display: flex;
+   }
+
+   .media_btn {
+      margin: auto 10px;
+   }
+   .table_top_search{
+      margin-bottom: 15px;
+   }
+   .table_top{
+      flex-direction: column-reverse;
+   }
+   .input_search{
+      border-right: none;
+      border-radius: 2px 0 0 2px ;
+      /* padding: 10px 20px 10px 10px; */
+      width: 100%;
+      padding: 10px 10px;
+   }
+   .icon_search{
+    position: static;
+    padding: 10px 10px;
+      
+    }
+   
+
+
+} 
+@media (max-width: 480px){
+   .media_btn input {
+      font-size: 30px;
+      background-color: yellow;
+      border-radius: 5px;
+      width: 40px;
+      
+
+   }
+
+   .firstline_a h6, .firstline_b h6 {
+      
+      font-size: 10px;
+      
+   }
+   .firstline_a p, .firstline_b p {
+      line-height: 16px;
+    
+      font-size: 10px;
+   }
+   .line_a {
+    
+      font-size: 10px;
+   }
+   .line_a span {
+      font-size: 14px;
+      margin-top: 10px;
+
+
+   }
+   .secondline h5 {
+      font-size: 10px;
+   }
+   .secondline h6 {
+      font-size: 12px;
+   
+   }
+   .secondline p {
+      font-size: 10px;
+    
+   }
+
+
+
+}
+@media (max-width: 400px){
+   .media_btn input {
+      font-size: 20px;
+      background-color: yellow;
+      border-radius: 5px;
+      width: 30px;
+      
+
+   }
+   .firstline_a h6, .firstline_b h6 {
+      
+      font-size: 8px;
+      
+   }
+   .firstline_a p, .firstline_b p {
+      line-height: 12px;
+    
+      font-size: 8px;
+   }
+   .line_a {
+    
+      font-size: 8px;
+   }
+   .line_a span {
+      font-size: 12px;
+      margin-top: 11px;
+
+
+   }
+   .secondline h5 {
+      font-size: 8px;
+   }
+   .secondline h6 {
+      font-size: 8px;
+   
+   }
+   .secondline p {
+      font-size: 8px;
+    
+   }
+
+
+
+}
